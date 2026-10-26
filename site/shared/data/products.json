@@ -1,0 +1,1570 @@
+{
+ "_readme": {
+  "th": "ไฟล์นี้ใช้ควบคุมสินค้าบนเว็บไซต์ทุกเวอร์ชัน เจ้าหน้าที่โปรโมตในไทยแก้ไขได้โดยตรง: isNew = สินค้าใหม่, isFeatured = สินค้าแนะนำ, isStock = ผ้าสต็อกที่ขายประจำ (จะสลับลำดับอัตโนมัติ), isClearance = ผ้าสต็อกราคาพิเศษ, samplePrice = ราคาผ้าตัวอย่างต่อเมตร (บาท) ห้ามใส่ราคาล็อตใหญ่",
+  "zh": "本文件控制所有版本网站上的产品。泰国当地推广专员可直接编辑：isNew=新品，isFeatured=新主推，isStock=常规备货（前台自动轮换顺序），isClearance=库存特价，samplePrice=米样价（泰铢/米），禁止填写大货价。修改后无需重新构建，刷新网页即生效。",
+  "en": "Controls products on every site version. Edit directly: isNew, isFeatured, isStock (auto-rotated), isClearance, samplePrice = per-metre sample price in THB. Never put bulk prices here."
+ },
+ "settings": {
+  "updated": "2026-10-26",
+  "showSamplePrice": true,
+  "currency": "THB",
+  "sampleUnit": {
+   "th": "เมตร",
+   "en": "m",
+   "zh": "米"
+  },
+  "rotateStock": true,
+  "newThisWeekCount": 8,
+  "lineId": "thaikimtextile",
+  "lineUrl": "https://line.me/R/ti/p/~thaikimtextile",
+    "chat": { "enabled": true, "autoOpen": true, "autoOpenMobile": true, "reopenAfterMinimize": false, "maxRecs": 4, "demoBadge": true,
+      "_note": "Fabric-matching chat demo (shared/js/tk-chat.js). enabled=false hides it everywhere; autoOpen / autoOpenMobile = open on page load (desktop / phone); reopenAfterMinimize=false keeps it minimised for the rest of the visit once closed; maxRecs = cards per answer; demoBadge = show the Demo label." },
+  "demoFlagsNote": "isNew/isFeatured/isStock/isClearance values in this draft are DEMO assignments based on point-fashion.com publish dates and 'featured' flags; prices are null (placeholder) until confirmed."
+ },
+ "products": [
+  {
+   "code": "FP13714",
+   "image": "img/p/FP13714.webp",
+   "category": "stripes",
+   "name": {
+    "th": "ผ้าลายทาง/ลายสก็อต",
+    "en": "Soft stretch twill",
+    "zh": "柔弹斜纹面料"
+   },
+   "composition": "90%N 10%SP",
+   "gsm": null,
+   "width": null,
+   "uses": {
+    "th": [
+     "Men's and women's suits, blazers, tailored dresses and trousers"
+    ],
+    "en": [
+     "Men's and women's suits, blazers, tailored dresses and trousers"
+    ],
+    "zh": [
+     "男女西装、西装外套、剪裁连衣裙与长裤"
+    ]
+   },
+   "addedDate": "2026-08-15",
+   "isNew": true,
+   "isFeatured": false,
+   "isStock": false,
+   "isClearance": false,
+   "samplePrice": null,
+   "clearancePrice": null,
+   "source": "point-fashion.com public catalogue"
+  },
+  {
+   "code": "FP77884",
+   "image": "img/p/FP77884.webp",
+   "category": "knit",
+   "name": {
+    "th": "ผ้าถัก/นิต",
+    "en": "Olive stretch performance pique",
+    "zh": "橄榄绿弹力性能珠地"
+   },
+   "composition": "42%C 50%T 3%S 5%SP",
+   "gsm": null,
+   "width": null,
+   "uses": {
+    "th": [
+     "T-shirts, polo shirts, casual sportswear and light outdoor tops"
+    ],
+    "en": [
+     "T-shirts, polo shirts, casual sportswear and light outdoor tops"
+    ],
+    "zh": [
+     "T恤、Polo衫、休闲运动装与轻户外上衣"
+    ]
+   },
+   "addedDate": "2026-08-15",
+   "isNew": true,
+   "isFeatured": false,
+   "isStock": false,
+   "isClearance": false,
+   "samplePrice": null,
+   "clearancePrice": null,
+   "source": "point-fashion.com public catalogue"
+  },
+  {
+   "code": "FP02813",
+   "image": "img/p/FP02813.webp",
+   "category": "stripes",
+   "name": {
+    "th": "ผ้าลายทาง/ลายสก็อต",
+    "en": "Soft vertical-stripe suiting",
+    "zh": "柔和竖条纹西装料"
+   },
+   "composition": "69%T 29%R 2%SP",
+   "gsm": null,
+   "width": null,
+   "uses": {
+    "th": [
+     "Men's and women's suits, blazers, tailored dresses and trousers"
+    ],
+    "en": [
+     "Men's and women's suits, blazers, tailored dresses and trousers"
+    ],
+    "zh": [
+     "男女西装、西装外套、剪裁连衣裙与长裤"
+    ]
+   },
+   "addedDate": "2026-08-14",
+   "isNew": true,
+   "isFeatured": false,
+   "isStock": false,
+   "isClearance": false,
+   "samplePrice": null,
+   "clearancePrice": null,
+   "source": "point-fashion.com public catalogue"
+  },
+  {
+   "code": "FP38885",
+   "image": "img/p/FP38885.webp",
+   "category": "stripes",
+   "name": {
+    "th": "ผ้าลายทาง/ลายสก็อต",
+    "en": "285 GSM multicolour pinstripe suiting",
+    "zh": "285 GSM多色细条纹西装料"
+   },
+   "composition": "69%T 29%R 2%SP",
+   "gsm": null,
+   "width": null,
+   "uses": {
+    "th": [
+     "Men's and women's suits, blazers, waistcoats, skirts and tailored trousers"
+    ],
+    "en": [
+     "Men's and women's suits, blazers, waistcoats, skirts and tailored trousers"
+    ],
+    "zh": [
+     "男女西装、西装外套、马甲、半身裙与剪裁长裤"
+    ]
+   },
+   "addedDate": "2026-08-14",
+   "isNew": true,
+   "isFeatured": false,
+   "isStock": false,
+   "isClearance": false,
+   "samplePrice": null,
+   "clearancePrice": null,
+   "source": "point-fashion.com public catalogue"
+  },
+  {
+   "code": "FP87068",
+   "image": "img/p/FP87068.webp",
+   "category": "knit",
+   "name": {
+    "th": "ผ้าถัก/นิต",
+    "en": "420 g suede air-layer fabric",
+    "zh": "420克麂皮绒空气层"
+   },
+   "composition": "94%T 6%SP",
+   "gsm": null,
+   "width": null,
+   "uses": {
+    "th": [
+     "Unisex jackets, coats, overshirts and structured casualwear"
+    ],
+    "en": [
+     "Unisex jackets, coats, overshirts and structured casualwear"
+    ],
+    "zh": [
+     "男女通用夹克、大衣、外穿衬衫与挺括休闲装"
+    ]
+   },
+   "addedDate": "2026-08-14",
+   "isNew": true,
+   "isFeatured": false,
+   "isStock": false,
+   "isClearance": false,
+   "samplePrice": null,
+   "clearancePrice": null,
+   "source": "point-fashion.com public catalogue"
+  },
+  {
+   "code": "FP77878",
+   "image": "img/p/FP77878.webp",
+   "category": "knit",
+   "name": {
+    "th": "ผ้าถัก/นิต",
+    "en": "210–220 GSM cotton 3D pique",
+    "zh": "210–220 GSM全棉3D珠地"
+   },
+   "composition": "100%C",
+   "gsm": null,
+   "width": null,
+   "uses": {
+    "th": [
+     "Polo shirts, polo dresses, skirt sets and casual uniforms"
+    ],
+    "en": [
+     "Polo shirts, polo dresses, skirt sets and casual uniforms"
+    ],
+    "zh": [
+     "Polo衫、Polo连衣裙、半身裙套装与休闲制服"
+    ]
+   },
+   "addedDate": "2026-08-13",
+   "isNew": true,
+   "isFeatured": false,
+   "isStock": false,
+   "isClearance": false,
+   "samplePrice": null,
+   "clearancePrice": null,
+   "source": "point-fashion.com public catalogue"
+  },
+  {
+   "code": "FP87441",
+   "image": "img/p/FP87441.webp",
+   "category": "prints",
+   "name": {
+    "th": "ผ้าพิมพ์ลาย",
+    "en": "Fade-resistant printed chiffon",
+    "zh": "耐褪色印花雪纺"
+   },
+   "composition": "100%T",
+   "gsm": null,
+   "width": null,
+   "uses": {
+    "th": [
+     "Abayas, hijabs and modest dresses"
+    ],
+    "en": [
+     "Abayas, hijabs and modest dresses"
+    ],
+    "zh": [
+     "穆斯林长袍、头巾与端庄连衣裙"
+    ]
+   },
+   "addedDate": "2026-08-11",
+   "isNew": true,
+   "isFeatured": false,
+   "isStock": false,
+   "isClearance": false,
+   "samplePrice": null,
+   "clearancePrice": null,
+   "source": "point-fashion.com public catalogue"
+  },
+  {
+   "code": "FP75461",
+   "image": "img/p/FP75461.webp",
+   "category": "embroidery",
+   "name": {
+    "th": "ผ้างานปัก",
+    "en": "Soft textured rayon-linen",
+    "zh": "柔软肌理人棉亚麻"
+   },
+   "composition": "85%R 15%L",
+   "gsm": null,
+   "width": null,
+   "uses": {
+    "th": [
+     "เสื้อเชิ้ตและเดรส"
+    ],
+    "en": [
+     "Shirts and dresses"
+    ],
+    "zh": [
+     "衬衫与连衣裙"
+    ]
+   },
+   "addedDate": "2026-08-06",
+   "isNew": true,
+   "isFeatured": false,
+   "isStock": false,
+   "isClearance": false,
+   "samplePrice": null,
+   "clearancePrice": null,
+   "source": "point-fashion.com public catalogue"
+  },
+  {
+   "code": "FP86102",
+   "image": "img/p/FP86102.webp",
+   "category": "prints",
+   "name": {
+    "th": "ผ้าพิมพ์ลาย",
+    "en": "Soft lyocell-ramie",
+    "zh": "柔软莱赛尔苎麻"
+   },
+   "composition": "55%Ram 45%LC",
+   "gsm": null,
+   "width": null,
+   "uses": {
+    "th": [
+     "เสื้อเชิ้ตและเดรส"
+    ],
+    "en": [
+     "Shirts and dresses"
+    ],
+    "zh": [
+     "衬衫与连衣裙"
+    ]
+   },
+   "addedDate": "2026-08-06",
+   "isNew": true,
+   "isFeatured": false,
+   "isStock": false,
+   "isClearance": false,
+   "samplePrice": null,
+   "clearancePrice": null,
+   "source": "point-fashion.com public catalogue"
+  },
+  {
+   "code": "FP86111",
+   "image": "img/p/FP86111.webp",
+   "category": "linen",
+   "name": {
+    "th": "ผ้าลินิน",
+    "en": "Natural breathability",
+    "zh": "天然透气"
+   },
+   "composition": "15%L 85%R",
+   "gsm": null,
+   "width": null,
+   "uses": {
+    "th": [
+     "เสื้อเชิ้ตและเดรส"
+    ],
+    "en": [
+     "Shirts and dresses"
+    ],
+    "zh": [
+     "衬衫与连衣裙"
+    ]
+   },
+   "addedDate": "2026-08-06",
+   "isNew": true,
+   "isFeatured": false,
+   "isStock": false,
+   "isClearance": false,
+   "samplePrice": null,
+   "clearancePrice": null,
+   "source": "point-fashion.com public catalogue"
+  },
+  {
+   "code": "FP86116",
+   "image": "img/p/FP86116.webp",
+   "category": "prints",
+   "name": {
+    "th": "ผ้าพิมพ์ลาย",
+    "en": "Soft lyocell-linen",
+    "zh": "柔软莱赛尔亚麻"
+   },
+   "composition": "20%L 80%LC",
+   "gsm": null,
+   "width": null,
+   "uses": {
+    "th": [
+     "เสื้อเชิ้ตและเดรส"
+    ],
+    "en": [
+     "Shirts and dresses"
+    ],
+    "zh": [
+     "衬衫与连衣裙"
+    ]
+   },
+   "addedDate": "2026-08-06",
+   "isNew": true,
+   "isFeatured": false,
+   "isStock": false,
+   "isClearance": false,
+   "samplePrice": null,
+   "clearancePrice": null,
+   "source": "point-fashion.com public catalogue"
+  },
+  {
+   "code": "FP86118",
+   "image": "img/p/FP86118.webp",
+   "category": "embroidery",
+   "name": {
+    "th": "ผ้างานปัก",
+    "en": "Soft lyocell-linen",
+    "zh": "柔软莱赛尔亚麻"
+   },
+   "composition": "20%L 80%LC",
+   "gsm": null,
+   "width": null,
+   "uses": {
+    "th": [
+     "เสื้อเชิ้ตและเดรส"
+    ],
+    "en": [
+     "Shirts and dresses"
+    ],
+    "zh": [
+     "衬衫与连衣裙"
+    ]
+   },
+   "addedDate": "2026-08-06",
+   "isNew": true,
+   "isFeatured": false,
+   "isStock": false,
+   "isClearance": false,
+   "samplePrice": null,
+   "clearancePrice": null,
+   "source": "point-fashion.com public catalogue"
+  },
+  {
+   "code": "FP00769",
+   "image": "img/p/FP00769.webp",
+   "category": "tweed",
+   "name": {
+    "th": "ผ้าทวีต",
+    "en": "Luxury mixed-yarn tweed",
+    "zh": "精致混色小香风"
+   },
+   "composition": "100%P",
+   "gsm": "274",
+   "width": "148 / 150",
+   "uses": {
+    "th": [
+     "ชุดเซ็ตผู้หญิง",
+     "ชุดเดรส",
+     "กระโปรง"
+    ],
+    "en": [
+     "Women's co-ord set",
+     "Dress",
+     "Skirt"
+    ],
+    "zh": [
+     "女装套装",
+     "连衣裙",
+     "半身裙"
+    ]
+   },
+   "addedDate": "2026-07-10",
+   "isNew": false,
+   "isFeatured": true,
+   "isStock": false,
+   "isClearance": false,
+   "samplePrice": null,
+   "clearancePrice": null,
+   "source": "point-fashion.com public catalogue"
+  },
+  {
+   "code": "FP00796",
+   "image": "img/p/FP00796.webp",
+   "category": "tweed",
+   "name": {
+    "th": "ผ้าทวีต",
+    "en": "Luxury mixed-yarn tweed",
+    "zh": "精致混色小香风"
+   },
+   "composition": "100%P",
+   "gsm": "268",
+   "width": "147",
+   "uses": {
+    "th": [
+     "ชุดเซ็ตผู้หญิง",
+     "ชุดเดรส",
+     "กระโปรง"
+    ],
+    "en": [
+     "Women's co-ord set",
+     "Dress",
+     "Skirt"
+    ],
+    "zh": [
+     "女装套装",
+     "连衣裙",
+     "半身裙"
+    ]
+   },
+   "addedDate": "2026-07-10",
+   "isNew": false,
+   "isFeatured": true,
+   "isStock": false,
+   "isClearance": false,
+   "samplePrice": null,
+   "clearancePrice": null,
+   "source": "point-fashion.com public catalogue"
+  },
+  {
+   "code": "FP09209",
+   "image": "img/p/FP09209.webp",
+   "category": "tweed",
+   "name": {
+    "th": "ผ้าทวีต",
+    "en": "Warm wool-blend tweed",
+    "zh": "保暖羊毛混纺小香风"
+   },
+   "composition": "50%P 50%W;50%W 50%P",
+   "gsm": "441;427",
+   "width": "145 / 150",
+   "uses": {
+    "th": [
+     "ชุดเซ็ตผู้หญิง",
+     "ชุดเดรส",
+     "กระโปรง"
+    ],
+    "en": [
+     "Women's co-ord set",
+     "Dress",
+     "Skirt"
+    ],
+    "zh": [
+     "女装套装",
+     "连衣裙",
+     "半身裙"
+    ]
+   },
+   "addedDate": "2026-07-10",
+   "isNew": false,
+   "isFeatured": true,
+   "isStock": false,
+   "isClearance": false,
+   "samplePrice": null,
+   "clearancePrice": null,
+   "source": "point-fashion.com public catalogue"
+  },
+  {
+   "code": "FP20426",
+   "image": "img/p/FP20426.webp",
+   "category": "prints",
+   "name": {
+    "th": "ผ้าพิมพ์ลาย",
+    "en": "3D floral eyelet",
+    "zh": "3D花卉镂空"
+   },
+   "composition": "100%P",
+   "gsm": "58",
+   "width": "135",
+   "uses": {
+    "th": [
+     "ชุดเดรส",
+     "กระโปรง",
+     "เสื้อเบลาส์"
+    ],
+    "en": [
+     "Dress",
+     "Skirt",
+     "Blouse"
+    ],
+    "zh": [
+     "连衣裙",
+     "半身裙",
+     "女式衬衫"
+    ]
+   },
+   "addedDate": "2026-07-10",
+   "isNew": false,
+   "isFeatured": true,
+   "isStock": false,
+   "isClearance": false,
+   "samplePrice": null,
+   "clearancePrice": null,
+   "source": "point-fashion.com public catalogue"
+  },
+  {
+   "code": "FP39856",
+   "image": "img/p/FP39856.webp",
+   "category": "prints",
+   "name": {
+    "th": "ผ้าพิมพ์ลาย",
+    "en": "3D floral eyelet",
+    "zh": "3D花卉镂空"
+   },
+   "composition": "100%P",
+   "gsm": "113",
+   "width": "134",
+   "uses": {
+    "th": [
+     "ชุดเดรส",
+     "กระโปรง",
+     "เสื้อเบลาส์"
+    ],
+    "en": [
+     "Dress",
+     "Skirt",
+     "Blouse"
+    ],
+    "zh": [
+     "连衣裙",
+     "半身裙",
+     "女式衬衫"
+    ]
+   },
+   "addedDate": "2026-07-10",
+   "isNew": false,
+   "isFeatured": true,
+   "isStock": false,
+   "isClearance": false,
+   "samplePrice": null,
+   "clearancePrice": null,
+   "source": "point-fashion.com public catalogue"
+  },
+  {
+   "code": "FP43421",
+   "image": "img/p/FP43421.webp",
+   "category": "prints",
+   "name": {
+    "th": "ผ้าพิมพ์ลาย",
+    "en": "3D floral eyelet",
+    "zh": "3D花卉镂空"
+   },
+   "composition": "100%P",
+   "gsm": "195",
+   "width": "150",
+   "uses": {
+    "th": [
+     "ชุดเดรส",
+     "กระโปรง",
+     "เสื้อเบลาส์"
+    ],
+    "en": [
+     "Dress",
+     "Skirt",
+     "Blouse"
+    ],
+    "zh": [
+     "连衣裙",
+     "半身裙",
+     "女式衬衫"
+    ]
+   },
+   "addedDate": "2026-07-10",
+   "isNew": false,
+   "isFeatured": true,
+   "isStock": false,
+   "isClearance": false,
+   "samplePrice": null,
+   "clearancePrice": null,
+   "source": "point-fashion.com public catalogue"
+  },
+  {
+   "code": "FP57398",
+   "image": "img/p/FP57398.webp",
+   "category": "lace",
+   "name": {
+    "th": "ผ้าลูกไม้",
+    "en": "Shimmering openwork lace",
+    "zh": "微光镂空蕾丝"
+   },
+   "composition": "100%N",
+   "gsm": "50-100",
+   "width": "145",
+   "uses": {
+    "th": [
+     "ชุดเดรส",
+     "กระโปรง",
+     "เสื้อเบลาส์"
+    ],
+    "en": [
+     "Dress",
+     "Skirt",
+     "Blouse"
+    ],
+    "zh": [
+     "连衣裙",
+     "半身裙",
+     "女式衬衫"
+    ]
+   },
+   "addedDate": "2026-07-10",
+   "isNew": false,
+   "isFeatured": true,
+   "isStock": false,
+   "isClearance": false,
+   "samplePrice": null,
+   "clearancePrice": null,
+   "source": "point-fashion.com public catalogue"
+  },
+  {
+   "code": "FP15326",
+   "image": "img/p/FP15326.webp",
+   "category": "tweed",
+   "name": {
+    "th": "ผ้าทวีต",
+    "en": "Luxury mixed-yarn tweed",
+    "zh": "精致混色小香风"
+   },
+   "composition": "100%P",
+   "gsm": "341",
+   "width": "147",
+   "uses": {
+    "th": [
+     "ชุดเซ็ตผู้หญิง",
+     "ชุดเดรส",
+     "กระโปรง"
+    ],
+    "en": [
+     "Women's co-ord set",
+     "Dress",
+     "Skirt"
+    ],
+    "zh": [
+     "女装套装",
+     "连衣裙",
+     "半身裙"
+    ]
+   },
+   "addedDate": "2026-07-10",
+   "isNew": false,
+   "isFeatured": false,
+   "isStock": true,
+   "isClearance": true,
+   "samplePrice": null,
+   "clearancePrice": null,
+   "source": "point-fashion.com public catalogue"
+  },
+  {
+   "code": "FP21150",
+   "image": "img/p/FP21150.webp",
+   "category": "tweed",
+   "name": {
+    "th": "ผ้าทวีต",
+    "en": "Luxury mixed-yarn tweed",
+    "zh": "精致混色小香风"
+   },
+   "composition": "70%C 30%P",
+   "gsm": "324",
+   "width": "147",
+   "uses": {
+    "th": [
+     "ชุดเซ็ตผู้หญิง",
+     "ชุดเดรส",
+     "กระโปรง"
+    ],
+    "en": [
+     "Women's co-ord set",
+     "Dress",
+     "Skirt"
+    ],
+    "zh": [
+     "女装套装",
+     "连衣裙",
+     "半身裙"
+    ]
+   },
+   "addedDate": "2026-07-10",
+   "isNew": false,
+   "isFeatured": false,
+   "isStock": true,
+   "isClearance": false,
+   "samplePrice": null,
+   "clearancePrice": null,
+   "source": "point-fashion.com public catalogue"
+  },
+  {
+   "code": "FP25495",
+   "image": "img/p/FP25495.webp",
+   "category": "tweed",
+   "name": {
+    "th": "ผ้าทวีต",
+    "en": "Luxury mixed-yarn tweed",
+    "zh": "精致混色小香风"
+   },
+   "composition": "100%P",
+   "gsm": "218",
+   "width": "147",
+   "uses": {
+    "th": [
+     "ชุดเซ็ตผู้หญิง",
+     "ชุดเดรส",
+     "กระโปรง"
+    ],
+    "en": [
+     "Women's co-ord set",
+     "Dress",
+     "Skirt"
+    ],
+    "zh": [
+     "女装套装",
+     "连衣裙",
+     "半身裙"
+    ]
+   },
+   "addedDate": "2026-07-10",
+   "isNew": false,
+   "isFeatured": false,
+   "isStock": true,
+   "isClearance": false,
+   "samplePrice": null,
+   "clearancePrice": null,
+   "source": "point-fashion.com public catalogue"
+  },
+  {
+   "code": "FP61604",
+   "image": "img/p/FP61604.webp",
+   "category": "prints",
+   "name": {
+    "th": "ผ้าพิมพ์ลาย",
+    "en": "3D floral eyelet",
+    "zh": "3D花卉镂空"
+   },
+   "composition": "100%P",
+   "gsm": "50",
+   "width": "130",
+   "uses": {
+    "th": [
+     "ชุดเดรส",
+     "กระโปรง",
+     "เสื้อเบลาส์"
+    ],
+    "en": [
+     "Dress",
+     "Skirt",
+     "Blouse"
+    ],
+    "zh": [
+     "连衣裙",
+     "半身裙",
+     "女式衬衫"
+    ]
+   },
+   "addedDate": "2026-07-10",
+   "isNew": false,
+   "isFeatured": false,
+   "isStock": true,
+   "isClearance": true,
+   "samplePrice": null,
+   "clearancePrice": null,
+   "source": "point-fashion.com public catalogue"
+  },
+  {
+   "code": "FP64148",
+   "image": "img/p/FP64148.webp",
+   "category": "prints",
+   "name": {
+    "th": "ผ้าพิมพ์ลาย",
+    "en": "3D floral eyelet",
+    "zh": "3D花卉镂空"
+   },
+   "composition": "40%TEL 33%T 20%N 7%R",
+   "gsm": "135",
+   "width": "155",
+   "uses": {
+    "th": [
+     "ชุดเดรส",
+     "กระโปรง",
+     "เสื้อเบลาส์"
+    ],
+    "en": [
+     "Dress",
+     "Skirt",
+     "Blouse"
+    ],
+    "zh": [
+     "连衣裙",
+     "半身裙",
+     "女式衬衫"
+    ]
+   },
+   "addedDate": "2026-07-10",
+   "isNew": false,
+   "isFeatured": false,
+   "isStock": true,
+   "isClearance": false,
+   "samplePrice": null,
+   "clearancePrice": null,
+   "source": "point-fashion.com public catalogue"
+  },
+  {
+   "code": "FP70344",
+   "image": "img/p/FP70344.webp",
+   "category": "prints",
+   "name": {
+    "th": "ผ้าพิมพ์ลาย",
+    "en": "3D floral eyelet",
+    "zh": "3D花卉镂空"
+   },
+   "composition": "85%TENCEL 15%P",
+   "gsm": "68",
+   "width": "150",
+   "uses": {
+    "th": [
+     "ชุดเดรส",
+     "กระโปรง",
+     "เสื้อเบลาส์"
+    ],
+    "en": [
+     "Dress",
+     "Skirt",
+     "Blouse"
+    ],
+    "zh": [
+     "连衣裙",
+     "半身裙",
+     "女式衬衫"
+    ]
+   },
+   "addedDate": "2026-07-10",
+   "isNew": false,
+   "isFeatured": false,
+   "isStock": true,
+   "isClearance": false,
+   "samplePrice": null,
+   "clearancePrice": null,
+   "source": "point-fashion.com public catalogue"
+  },
+  {
+   "code": "FP02651",
+   "image": "img/p/FP02651.webp",
+   "category": "stripes",
+   "name": {
+    "th": "ผ้าลายทาง/ลายสก็อต",
+    "en": "Crisp shape-retaining weave",
+    "zh": "挺括有型织面"
+   },
+   "composition": "55%P 45%C",
+   "gsm": "115",
+   "width": "145",
+   "uses": {
+    "th": [
+     "ชุดเดรส",
+     "กระโปรง",
+     "เสื้อเบลาส์"
+    ],
+    "en": [
+     "Dress",
+     "Skirt",
+     "Blouse"
+    ],
+    "zh": [
+     "连衣裙",
+     "半身裙",
+     "女式衬衫"
+    ]
+   },
+   "addedDate": "2026-07-10",
+   "isNew": false,
+   "isFeatured": false,
+   "isStock": true,
+   "isClearance": true,
+   "samplePrice": null,
+   "clearancePrice": null,
+   "source": "point-fashion.com public catalogue"
+  },
+  {
+   "code": "FP14464",
+   "image": "img/p/FP14464.webp",
+   "category": "embroidery",
+   "name": {
+    "th": "ผ้างานปัก",
+    "en": "Soft non-scratch base",
+    "zh": "柔软不刺肤底布"
+   },
+   "composition": "100%C",
+   "gsm": "90",
+   "width": "135",
+   "uses": {
+    "th": [
+     "ชุดเดรส",
+     "กระโปรง",
+     "เสื้อเบลาส์"
+    ],
+    "en": [
+     "Dress",
+     "Skirt",
+     "Blouse"
+    ],
+    "zh": [
+     "连衣裙",
+     "半身裙",
+     "女式衬衫"
+    ]
+   },
+   "addedDate": "2026-07-10",
+   "isNew": false,
+   "isFeatured": false,
+   "isStock": true,
+   "isClearance": false,
+   "samplePrice": null,
+   "clearancePrice": null,
+   "source": "point-fashion.com public catalogue"
+  },
+  {
+   "code": "FP57655",
+   "image": "img/p/FP57655.webp",
+   "category": "jacquard",
+   "name": {
+    "th": "ผ้าแจ็คการ์ด",
+    "en": "Lightweight semi-sheer",
+    "zh": "轻盈半透"
+   },
+   "composition": "87%T 13%R",
+   "gsm": "125",
+   "width": "148",
+   "uses": {
+    "th": [
+     "ชุดเดรส",
+     "กระโปรง",
+     "เสื้อเบลาส์"
+    ],
+    "en": [
+     "Dress",
+     "Skirt",
+     "Blouse"
+    ],
+    "zh": [
+     "连衣裙",
+     "半身裙",
+     "女式衬衫"
+    ]
+   },
+   "addedDate": "2026-07-10",
+   "isNew": false,
+   "isFeatured": false,
+   "isStock": true,
+   "isClearance": false,
+   "samplePrice": null,
+   "clearancePrice": null,
+   "source": "point-fashion.com public catalogue"
+  },
+  {
+   "code": "FP57657",
+   "image": "img/p/FP57657.webp",
+   "category": "jacquard",
+   "name": {
+    "th": "ผ้าแจ็คการ์ด",
+    "en": "Intricate jacquard",
+    "zh": "精细提花织造"
+   },
+   "composition": "95%T 5%R",
+   "gsm": "125",
+   "width": "148",
+   "uses": {
+    "th": [
+     "ชุดเดรส",
+     "กระโปรง",
+     "เสื้อเบลาส์"
+    ],
+    "en": [
+     "Dress",
+     "Skirt",
+     "Blouse"
+    ],
+    "zh": [
+     "连衣裙",
+     "半身裙",
+     "女式衬衫"
+    ]
+   },
+   "addedDate": "2026-07-10",
+   "isNew": false,
+   "isFeatured": false,
+   "isStock": true,
+   "isClearance": true,
+   "samplePrice": null,
+   "clearancePrice": null,
+   "source": "point-fashion.com public catalogue"
+  },
+  {
+   "code": "FP59143",
+   "image": "img/p/FP59143.webp",
+   "category": "lace",
+   "name": {
+    "th": "ผ้าลูกไม้",
+    "en": "Shimmering openwork lace",
+    "zh": "微光镂空蕾丝"
+   },
+   "composition": "100%P",
+   "gsm": "40-60",
+   "width": "150",
+   "uses": {
+    "th": [
+     "ชุดเดรส",
+     "กระโปรง",
+     "เสื้อเบลาส์"
+    ],
+    "en": [
+     "Dress",
+     "Skirt",
+     "Blouse"
+    ],
+    "zh": [
+     "连衣裙",
+     "半身裙",
+     "女式衬衫"
+    ]
+   },
+   "addedDate": "2026-07-10",
+   "isNew": false,
+   "isFeatured": false,
+   "isStock": true,
+   "isClearance": false,
+   "samplePrice": null,
+   "clearancePrice": null,
+   "source": "point-fashion.com public catalogue"
+  },
+  {
+   "code": "FP60445",
+   "image": "img/p/FP60445.webp",
+   "category": "lace",
+   "name": {
+    "th": "ผ้าลูกไม้",
+    "en": "Shimmering openwork lace",
+    "zh": "微光镂空蕾丝"
+   },
+   "composition": "Base fabric 100%N; embroidery 100%P",
+   "gsm": "100",
+   "width": "130",
+   "uses": {
+    "th": [
+     "ชุดเดรส",
+     "กระโปรง",
+     "เสื้อเบลาส์"
+    ],
+    "en": [
+     "Dress",
+     "Skirt",
+     "Blouse"
+    ],
+    "zh": [
+     "连衣裙",
+     "半身裙",
+     "女式衬衫"
+    ]
+   },
+   "addedDate": "2026-07-10",
+   "isNew": false,
+   "isFeatured": false,
+   "isStock": true,
+   "isClearance": false,
+   "samplePrice": null,
+   "clearancePrice": null,
+   "source": "point-fashion.com public catalogue"
+  },
+  {
+   "code": "FP61877",
+   "image": "img/p/FP61877.webp",
+   "category": "embroidery",
+   "name": {
+    "th": "ผ้างานปัก",
+    "en": "Soft non-scratch base",
+    "zh": "柔软不刺肤底布"
+   },
+   "composition": "100%C",
+   "gsm": "150-200",
+   "width": "130",
+   "uses": {
+    "th": [
+     "ชุดเดรส",
+     "กระโปรง",
+     "เสื้อเบลาส์"
+    ],
+    "en": [
+     "Dress",
+     "Skirt",
+     "Blouse"
+    ],
+    "zh": [
+     "连衣裙",
+     "半身裙",
+     "女式衬衫"
+    ]
+   },
+   "addedDate": "2026-07-10",
+   "isNew": false,
+   "isFeatured": false,
+   "isStock": true,
+   "isClearance": true,
+   "samplePrice": null,
+   "clearancePrice": null,
+   "source": "point-fashion.com public catalogue"
+  },
+  {
+   "code": "FP61897",
+   "image": "img/p/FP61897.webp",
+   "category": "embroidery",
+   "name": {
+    "th": "ผ้างานปัก",
+    "en": "Soft non-scratch base",
+    "zh": "柔软不刺肤底布"
+   },
+   "composition": "85%Tel 15%N",
+   "gsm": "150-200",
+   "width": "130",
+   "uses": {
+    "th": [
+     "ชุดเดรส",
+     "กระโปรง",
+     "เสื้อเบลาส์"
+    ],
+    "en": [
+     "Dress",
+     "Skirt",
+     "Blouse"
+    ],
+    "zh": [
+     "连衣裙",
+     "半身裙",
+     "女式衬衫"
+    ]
+   },
+   "addedDate": "2026-07-10",
+   "isNew": false,
+   "isFeatured": false,
+   "isStock": true,
+   "isClearance": false,
+   "samplePrice": null,
+   "clearancePrice": null,
+   "source": "point-fashion.com public catalogue"
+  },
+  {
+   "code": "FP62741",
+   "image": "img/p/FP62741.webp",
+   "category": "stripes",
+   "name": {
+    "th": "ผ้าลายทาง/ลายสก็อต",
+    "en": "Smooth skin-comfort touch",
+    "zh": "顺滑亲肤触感"
+   },
+   "composition": "65%P 20%C 15%R",
+   "gsm": "115",
+   "width": "145",
+   "uses": {
+    "th": [
+     "ชุดเดรส",
+     "กระโปรง",
+     "เสื้อเบลาส์"
+    ],
+    "en": [
+     "Dress",
+     "Skirt",
+     "Blouse"
+    ],
+    "zh": [
+     "连衣裙",
+     "半身裙",
+     "女式衬衫"
+    ]
+   },
+   "addedDate": "2026-07-10",
+   "isNew": false,
+   "isFeatured": false,
+   "isStock": true,
+   "isClearance": false,
+   "samplePrice": null,
+   "clearancePrice": null,
+   "source": "point-fashion.com public catalogue"
+  },
+  {
+   "code": "FP62759",
+   "image": "img/p/FP62759.webp",
+   "category": "stripes",
+   "name": {
+    "th": "ผ้าลายทาง/ลายสก็อต",
+    "en": "Crisp shape-retaining weave",
+    "zh": "挺括有型织面"
+   },
+   "composition": "45%P 45%LC 10%R",
+   "gsm": "120",
+   "width": "145",
+   "uses": {
+    "th": [
+     "ชุดเดรส",
+     "กระโปรง",
+     "เสื้อเบลาส์"
+    ],
+    "en": [
+     "Dress",
+     "Skirt",
+     "Blouse"
+    ],
+    "zh": [
+     "连衣裙",
+     "半身裙",
+     "女式衬衫"
+    ]
+   },
+   "addedDate": "2026-07-10",
+   "isNew": false,
+   "isFeatured": false,
+   "isStock": true,
+   "isClearance": true,
+   "samplePrice": null,
+   "clearancePrice": null,
+   "source": "point-fashion.com public catalogue"
+  },
+  {
+   "code": "FP68349",
+   "image": "img/p/FP68349.webp",
+   "category": "lace",
+   "name": {
+    "th": "ผ้าลูกไม้",
+    "en": "Shimmering openwork lace",
+    "zh": "微光镂空蕾丝"
+   },
+   "composition": "100%N",
+   "gsm": "100",
+   "width": "125",
+   "uses": {
+    "th": [
+     "ชุดเดรส",
+     "กระโปรง",
+     "เสื้อเบลาส์"
+    ],
+    "en": [
+     "Dress",
+     "Skirt",
+     "Blouse"
+    ],
+    "zh": [
+     "连衣裙",
+     "半身裙",
+     "女式衬衫"
+    ]
+   },
+   "addedDate": "2026-07-10",
+   "isNew": false,
+   "isFeatured": false,
+   "isStock": true,
+   "isClearance": false,
+   "samplePrice": null,
+   "clearancePrice": null,
+   "source": "point-fashion.com public catalogue"
+  },
+  {
+   "code": "FP72038",
+   "image": "img/p/FP72038.webp",
+   "category": "jacquard",
+   "name": {
+    "th": "ผ้าแจ็คการ์ด",
+    "en": "Embossed jacquard satin",
+    "zh": "柔光压花提花缎"
+   },
+   "composition": "80%P 20%N",
+   "gsm": "100",
+   "width": "158",
+   "uses": {
+    "th": [
+     "ชุดเดรส",
+     "กระโปรง",
+     "เสื้อเบลาส์"
+    ],
+    "en": [
+     "Dress",
+     "Skirt",
+     "Blouse"
+    ],
+    "zh": [
+     "连衣裙",
+     "半身裙",
+     "女式衬衫"
+    ]
+   },
+   "addedDate": "2026-07-10",
+   "isNew": false,
+   "isFeatured": false,
+   "isStock": true,
+   "isClearance": false,
+   "samplePrice": null,
+   "clearancePrice": null,
+   "source": "point-fashion.com public catalogue"
+  },
+  {
+   "code": "FP39592",
+   "image": "img/p/FP39592.webp",
+   "category": "linen",
+   "name": {
+    "th": "ผ้าลินิน",
+    "en": "Breathable natural linen",
+    "zh": "透气天然亚麻"
+   },
+   "composition": "100% Linen",
+   "gsm": null,
+   "width": null,
+   "uses": {
+    "th": [
+     "เสื้อเชิ้ตและกางเกง"
+    ],
+    "en": [
+     "Shirts and trousers"
+    ],
+    "zh": [
+     "衬衫与长裤"
+    ]
+   },
+   "addedDate": "2026-07-29",
+   "isNew": false,
+   "isFeatured": false,
+   "isStock": true,
+   "isClearance": true,
+   "samplePrice": null,
+   "clearancePrice": null,
+   "source": "point-fashion.com public catalogue"
+  },
+  {
+   "code": "FP75468",
+   "image": "img/p/FP75468.webp",
+   "category": "linen",
+   "name": {
+    "th": "ผ้าลินิน",
+    "en": "Soft lyocell-linen",
+    "zh": "柔软莱赛尔亚麻"
+   },
+   "composition": "80% Lyocell 20% Linen",
+   "gsm": null,
+   "width": null,
+   "uses": {
+    "th": [
+     "Dresses and shirts"
+    ],
+    "en": [
+     "Dresses and shirts"
+    ],
+    "zh": [
+     "连衣裙与衬衫"
+    ]
+   },
+   "addedDate": "2026-07-29",
+   "isNew": false,
+   "isFeatured": false,
+   "isStock": true,
+   "isClearance": false,
+   "samplePrice": null,
+   "clearancePrice": null,
+   "source": "point-fashion.com public catalogue"
+  },
+  {
+   "code": "FP86100",
+   "image": "img/p/FP86100.webp",
+   "category": "linen",
+   "name": {
+    "th": "ผ้าลินิน",
+    "en": "Soft lyocell-linen",
+    "zh": "柔软莱赛尔亚麻"
+   },
+   "composition": "20% Linen 80% Lyocell",
+   "gsm": null,
+   "width": null,
+   "uses": {
+    "th": [
+     "เสื้อเชิ้ตและกางเกง"
+    ],
+    "en": [
+     "Shirts and trousers"
+    ],
+    "zh": [
+     "衬衫与长裤"
+    ]
+   },
+   "addedDate": "2026-07-29",
+   "isNew": false,
+   "isFeatured": false,
+   "isStock": true,
+   "isClearance": false,
+   "samplePrice": null,
+   "clearancePrice": null,
+   "source": "point-fashion.com public catalogue"
+  },
+  {
+   "code": "FP27967",
+   "image": "img/p/FP27967.webp",
+   "category": "satin",
+   "name": {
+    "th": "ผ้าซาติน",
+    "en": "Silky glossy satin",
+    "zh": "丝滑亮泽缎面"
+   },
+   "composition": "80%M 20%T",
+   "gsm": "72",
+   "width": "150",
+   "uses": {
+    "th": [
+     "ชุดคลุม",
+     "ชุดเดรส",
+     "กระโปรง"
+    ],
+    "en": [
+     "Robe",
+     "Dress",
+     "Skirt"
+    ],
+    "zh": [
+     "长袍",
+     "连衣裙",
+     "半身裙"
+    ]
+   },
+   "addedDate": "2026-08-01",
+   "isNew": false,
+   "isFeatured": false,
+   "isStock": true,
+   "isClearance": true,
+   "samplePrice": null,
+   "clearancePrice": null,
+   "source": "point-fashion.com public catalogue"
+  },
+  {
+   "code": "FP39172",
+   "image": "img/p/FP39172.webp",
+   "category": "satin",
+   "name": {
+    "th": "ผ้าซาติน",
+    "en": "Silky glossy satin",
+    "zh": "丝滑亮泽缎面"
+   },
+   "composition": "34%TEL 34%AC 32%T",
+   "gsm": "88",
+   "width": "150",
+   "uses": {
+    "th": [
+     "ชุดคลุม",
+     "ชุดเดรส",
+     "กระโปรง"
+    ],
+    "en": [
+     "Robe",
+     "Dress",
+     "Skirt"
+    ],
+    "zh": [
+     "长袍",
+     "连衣裙",
+     "半身裙"
+    ]
+   },
+   "addedDate": "2026-08-01",
+   "isNew": false,
+   "isFeatured": false,
+   "isStock": true,
+   "isClearance": false,
+   "samplePrice": null,
+   "clearancePrice": null,
+   "source": "point-fashion.com public catalogue"
+  },
+  {
+   "code": "FP48260",
+   "image": "img/p/FP48260.webp",
+   "category": "satin",
+   "name": {
+    "th": "ผ้าซาติน",
+    "en": "Silky glossy satin",
+    "zh": "丝滑亮泽缎面"
+   },
+   "composition": "100%P",
+   "gsm": "164",
+   "width": "150",
+   "uses": {
+    "th": [
+     "ชุดคลุม",
+     "ชุดเดรส",
+     "กระโปรง"
+    ],
+    "en": [
+     "Robe",
+     "Dress",
+     "Skirt"
+    ],
+    "zh": [
+     "长袍",
+     "连衣裙",
+     "半身裙"
+    ]
+   },
+   "addedDate": "2026-08-01",
+   "isNew": false,
+   "isFeatured": false,
+   "isStock": true,
+   "isClearance": false,
+   "samplePrice": null,
+   "clearancePrice": null,
+   "source": "point-fashion.com public catalogue"
+  }
+ ]
+}

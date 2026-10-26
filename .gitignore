@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.DS_Store
+# full-size PNG screenshots are regenerated locally (npm run shots); compressed .webp/.jpg copies are committed
+screenshots/**/*.png
+
+# internal notes (Mac paths, internal project names) — never publish
+private-notes/

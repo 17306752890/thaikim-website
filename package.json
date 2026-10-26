@@ -1,0 +1,16 @@
+{
+  "name": "thaikim-site",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Thai Kim Textile (Five Point) Thailand website drafts — 5 versions, static zero-dependency build for GitHub Pages",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "serve": "cd dist && python3 -m http.server 4321",
+    "dev": "node scripts/build.mjs && cd dist && python3 -m http.server 4321",
+    "shots": "node scripts/screenshots.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

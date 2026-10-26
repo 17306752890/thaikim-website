@@ -1,0 +1,148 @@
+[
+  {
+    "page": "v1/th/index",
+    "size": "desktop",
+    "file": "screenshots/v1/th-index-desktop.png",
+    "images": 24,
+    "broken": [],
+    "notLoaded": 0,
+    "overflowX": false,
+    "products": 11,
+    "thaiFontsLoaded": [
+      "IBM Plex Sans Thai",
+      "Noto Serif Thai"
+    ],
+    "errors": []
+  },
+  {
+    "page": "v1/th/index",
+    "size": "mobile",
+    "file": "screenshots/v1/th-index-mobile.png",
+    "images": 21,
+    "broken": [],
+    "notLoaded": 0,
+    "overflowX": false,
+    "products": 11,
+    "thaiFontsLoaded": [
+      "IBM Plex Sans Thai",
+      "Noto Serif Thai"
+    ],
+    "errors": []
+  },
+  {
+    "page": "v2/th/index",
+    "size": "desktop",
+    "file": "screenshots/v2/th-index-desktop.png",
+    "images": 53,
+    "broken": [],
+    "notLoaded": 0,
+    "overflowX": false,
+    "products": 43,
+    "thaiFontsLoaded": [
+      "Anuphan"
+    ],
+    "errors": []
+  },
+  {
+    "page": "v2/th/index",
+    "size": "mobile",
+    "file": "screenshots/v2/th-index-mobile.png",
+    "images": 53,
+    "broken": [],
+    "notLoaded": 0,
+    "overflowX": false,
+    "products": 43,
+    "thaiFontsLoaded": [
+      "Anuphan"
+    ],
+    "errors": []
+  },
+  {
+    "page": "v3/th/index",
+    "size": "desktop",
+    "file": "screenshots/v3/th-index-desktop.png",
+    "images": 19,
+    "broken": [],
+    "notLoaded": 0,
+    "overflowX": false,
+    "products": 8,
+    "thaiFontsLoaded": [
+      "Sarabun",
+      "Trirong"
+    ],
+    "errors": []
+  },
+  {
+    "page": "v3/th/index",
+    "size": "mobile",
+    "file": "screenshots/v3/th-index-mobile.png",
+    "images": 16,
+    "broken": [],
+    "notLoaded": 0,
+    "overflowX": false,
+    "products": 8,
+    "thaiFontsLoaded": [
+      "Sarabun",
+      "Trirong"
+    ],
+    "errors": []
+  },
+  {
+    "page": "v4/th/index",
+    "size": "desktop",
+    "file": "screenshots/v4/th-index-desktop.png",
+    "images": 22,
+    "broken": [],
+    "notLoaded": 0,
+    "overflowX": false,
+    "products": 12,
+    "thaiFontsLoaded": [
+      "Kanit"
+    ],
+    "errors": []
+  },
+  {
+    "page": "v4/th/index",
+    "size": "mobile",
+    "file": "screenshots/v4/th-index-mobile.png",
+    "images": 20,
+    "broken": [],
+    "notLoaded": 1,
+    "overflowX": false,
+    "products": 12,
+    "thaiFontsLoaded": [
+      "Kanit"
+    ],
+    "errors": []
+  },
+  {
+    "page": "v5/th/index",
+    "size": "desktop",
+    "file": "screenshots/v5/th-index-desktop.png",
+    "images": 11,
+    "broken": [],
+    "notLoaded": 0,
+    "overflowX": false,
+    "products": 9,
+    "thaiFontsLoaded": [
+      "Prompt",
+      "Sarabun"
+    ],
+    "errors": []
+  },
+  {
+    "page": "v5/th/index",
+    "size": "mobile",
+    "file": "screenshots/v5/th-index-mobile.png",
+    "images": 10,
+    "broken": [],
+    "notLoaded": 0,
+    "overflowX": false,
+    "products": 9,
+    "thaiFontsLoaded": [
+      "Prompt",
+      "Sarabun"
+    ],
+    "errors": []
+  }
+]
