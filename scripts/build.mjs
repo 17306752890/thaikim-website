@@ -82,6 +82,7 @@ footer{text-align:center;color:#8f8c84;font-size:.8rem;padding:0 20px 40px}
 </style></head><body>
 <header><img src="shared/img/brand/fp-mark.png" alt="Five Point"><div><h1>Thai Kim Textile · Five Point 官网方案（5 版）</h1><p class="sub">请选择一个版本查看 · <span class="th">เลือกแบบเว็บไซต์ที่ต้องการดู (5 แบบ)</span></p></div></header>
 <p class="note">草稿，仅供内部评审；黄色 [待确认 / รอยืนยัน] 为待确认信息，价格均为占位。 · <span class="th">ร่างสำหรับรีวิวภายใน ราคาเป็นตัวอย่าง</span></p>
+<p class="note"><a href="refs/" style="color:#1b2d60;font-weight:600">→ 设计参考汇总（20 个泰国面料官网 + 20 个国际高端官网）</a></p>
 <div class="grid">${cards}</div>
 <footer>五个版本共用同一份产品数据 shared/data/products.json · <span class="th">ทุกแบบใช้ข้อมูลสินค้าชุดเดียวกัน</span></footer>
 </body></html>`);
